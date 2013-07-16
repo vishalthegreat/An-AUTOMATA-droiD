@@ -1,0 +1,7 @@
+An AUTOMATA droiD is an Android App which is specifically for CSE Scholar's.
+In this app, the maximum description of Computer Science subject namely: Theory Of Automata, is given with mathematical objects/symbols and dynamic DFA GENERATOR.
+This Android App is the effort of 3 Engineering Students dedicating to all AUTOMATA and AAKASH TAB Lovers.
+Name of Developers(VASt):
+1)Vishal Sharma
+2)Aman Jain
+3)Saurav Khandelwal

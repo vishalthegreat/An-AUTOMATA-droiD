@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.aakashlabs.anautomatadroid"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="15" />
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="org.aakashlabs.anautomatadroid.HomeScreen"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="org.aakashlabs.anautomatadroid.TOAScreen"
+            android:label="@string/title_activity_toascreen" >
+        </activity>
+        <activity
+            android:name="org.aakashlabs.anautomatadroid.TOAimage"
+            android:label="@string/title_activity_toaimage" >
+        </activity>
+        <activity android:name="org.aakashlabs.anautomatadroid.BasicScreen" >
+        </activity>
+        <activity android:name="org.aakashlabs.anautomatadroid.Basicimage" >
+        </activity>
+        <activity android:name="org.aakashlabs.anautomatadroid.FAQScreen" >
+        </activity>
+        <activity android:name="org.aakashlabs.anautomatadroid.DFAChildScreen" >
+        </activity>
+        <activity android:name="org.aakashlabs.anautomatadroid.DFAScreen" >
+        </activity>
+        <activity
+            android:name="org.aakashlabs.anautomatadroid.FinalImageActivity"
+            android:label="@string/title_activity_final_image" >
+        </activity>
+        <activity android:name="Faqimage"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">An AUTOMATA droiD</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_toascreen">Theory Of Automata</string>
+    <string name="title_activity_toaimage">Theory Of Automata</string>
+
+    <string-array name="DFA_Atleast_Array">
+        <item>A) Atleast two 0s and atmost one 1</item>
+        <item>B) Contain atleast one 1 and even no of 0s follow last 1</item>
+        <item>C) Equal no of 0s and 1s each prefix_has atmost 1 more 0 than 1s and atmost 1 more 1 than 0s</item>
+        <item>D) Length atleast 3 and 3rd symbol is 0</item>
+        <item>E) Length atmost 5</item>
+        <item>F) Not more than 3 a</item>
+    </string-array>
+    <string-array name="DFA_Consecutive_Array">
+        <item>A) 3 consecutive b</item>
+        <item>B) Do not contain 3 consecutive 0</item>
+    </string-array>
+    <string-array name="DFA_Divisible_Array">
+        <item>A) a pow n b pow m where n is divisible by 3 and m is divisible by 2 or n minus m grearterthan 0</item>
+        <item>B) Binary interpretation is divisible by 5</item>
+        <item>C) Divisible by 3 over input 0 and 1</item>
+        <item>D) Divisible by 3 over input 0 to 9</item>
+        <item>E) No of b is divisible by 3</item>
+    </string-array>
+    <string-array name="DFA_EvenOdd_Array">
+        <item>A) Binary odd no</item>
+        <item>B) Either no of 0 are odd or no of 1 are even but not both</item>
+        <item>C) Even no of 1 or exactly two 1s</item>
+        <item>D) Even no of 0s and 1s</item>
+        <item>E) Even no of 0s and any no of 1s</item>
+        <item>F) Even no of ab pair</item>
+        <item>G) Even no of 1 </item>
+        <item>H) Even parity checker</item>
+        <item>I) Every odd position is 1</item>
+        <item>J) Odd no of a</item>
+        <item>K) Set of integers</item>
+        <item>L) Set of signed integers</item>
+    </string-array>
+    <string-array name="DFA_Exactly_Array">
+        <item>A) Contains exactly 2 a</item>
+        <item>B) Exactly 4 0s</item>
+        <item>C) Exactly 4 0s and atleast 2 1s</item>
+    </string-array>
+    <string-array name="DFA_Followed_Array">
+        <item>A) 00 followed by 11</item>
+        <item>B) Every 0 followed by 1</item>
+        <item>C) Each 0 is immediately followed by 11</item>
+        <item>D) Every 0 in w has a immediately to its right</item>
+    </string-array>
+    <string-array name="DFA_Language_Array">
+        <item>A) a pow 2n plus 1</item>
+        <item>B) abbbc</item>
+        <item>C) aba b pow n</item>
+        <item>D) ab a pow n</item>
+        <item>E) ab pow n</item>
+        <item>F) ab pow n where n greater than 0</item>
+        <item>G) a pow m b pow n where m and n greater than 0</item>
+        <item>H) a pow n b</item>
+        <item>I) b pow m a b pow n</item>
+        <item>J) b pow n a</item>
+    </string-array>
+    <string-array name="DFA_MOD_Array">
+        <item>A) b MOD 3 equals 0</item>
+        <item>B) b MOD 3 equals 1</item>
+        <item>C) b MOD 3 equals 2</item>
+        <item>D) No of 1s in w is 3 MOD 4</item>
+        <item>E) w MOD 5 equals 2</item>
+    </string-array>
+    <string-array name="DFA_RE_Array">
+        <item>A) (0+1)*(00+11+10)+null+0+1</item>
+        <item>B) (0+1)*(01+110)</item>
+        <item>C) (0+1)*(1+00)(0+1)*</item>
+        <item>D) (1+01)*(null+0+00)(1+10)*</item>
+        <item>E) (1+01)*(0+null)</item>
+        <item>F) (1+10+110)*0</item>
+        <item>G) (1+011)*</item>
+        <item>H) (1+110)*0</item>
+        <item>I) (010+00)*(10)*</item>
+        <item>J) (10+11)*</item>
+        <item>K) (111+100)*0</item>
+        <item>L) (abc+)+</item>
+        <item>M) 1*01*0(0+1)*</item>
+        <item>N) 1*01*01*</item>
+        <item>O) 1(01+10)*+0(11+10)*</item>
+        <item>P) 1(1+10)*+10(0+01)*</item>
+        <item>Q) Accepts(0+1)+</item>
+        <item>R) Null+b+ab+bb</item>
+    </string-array>
+    <string-array name="DFA_Starts_Ends_With_Array">
+        <item>A) Ends with 111</item>
+        <item>B) Ends with 1101</item>
+        <item>C) Ends with a 1</item>
+        <item>D) Ends with ab</item>
+        <item>E) Start with 0 and has odd length or start with 1 and has even length</item>
+        <item>F) Starts with a</item>
+        <item>G) Starts with a and end with b</item>
+        <item>H) Starts and ends with a</item>
+        <item>I) Starts with 1 and ends with 0</item>
+        <item>J) Starts with 111</item>
+        <item>K) Starts with prefix ab</item>
+    </string-array>
+    <string-array name="DFA_String_Substring_Array">
+        <item>A) Equal no of occurances of substring 01 and 10</item>
+        <item>B) Neither 00 nor 11 as substring</item>
+        <item>C) String contains ab</item>
+        <item>D) String except 11 and 111</item>
+        <item>E) String having aba</item>
+        <item>F) Subsring abb</item>
+        <item>G) Substring 0101</item>
+        <item>H) Substring 1001</item>
+        <item>I) Substring ababb</item>
+        <item>J) Does not contain substring 110</item>
+    </string-array>
+    <string-array name="DFA_Miscellaneous_Array">
+        <item>A) Universal Acceptor</item>
+        <item>B) Accepts cat and rat</item>
+        <item>C) Accepts null</item>
+        <item>D) Accepts triple a or triple b</item>
+        <item>E) Accepts while</item>
+        <item>F) Both 01 and 10 as substring</item>
+        <item>G) C Language comment tracker</item>
+        <item>H) Contain pattern abac</item>
+        <item>I) Containing a 1 in 3rd position from the end</item>
+        <item>J) No runs of as of length greater than 2</item>
+        <item>K) Second to last symbol of w is b</item>
+        <item>L) W greater than 2 and neither ends in aa nor bb</item>
+    </string-array>
+
+    <string name="title_activity_final_image">FinalImageActivity</string>
+    <string name="basics">BASICS</string>
+    <string name="toa">TOA</string>
+    <string name="faqs">FAQs</string>
+    <string name="dfa_generator">DFA GENERATOR</string>
+    <string name="share">Share</string>
+    <string name="about_us">About Us</string>
+    <string name="home">Home</string>
+
+</resources>

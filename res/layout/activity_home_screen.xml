@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/TableLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffc789"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".HomeScreen" >
+
+    <Button
+        android:id="@+id/toa_button"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#ffe4b5"
+        android:text="@string/toa"
+        android:textColor="#ff8000" />
+
+    <Button
+        android:id="@+id/basics_button"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#ffebcd"
+        android:text="@string/basics"
+        android:textColor="#ff8000" />
+
+    <Button
+        android:id="@+id/dfa_button"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#ffe4b5"
+        android:text="@string/dfa_generator"
+        android:textColor="#ff8000" />
+
+    <Button
+        android:id="@+id/faq_button"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#ffebcd"
+        android:text="@string/faqs"
+        android:textColor="#ff8000" />
+
+    <Button
+        android:id="@+id/about_us_button"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#ffe4b5"
+         android:textColor="#ff8000"
+        android:text="@string/about_us" />
+
+</TableLayout>
