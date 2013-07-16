@@ -3,8 +3,6 @@ package org.aakashlabs.anautomatadroid;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.example.anautomatadroid.R;
-
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;

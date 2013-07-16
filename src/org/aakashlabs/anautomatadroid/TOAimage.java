@@ -1,7 +1,5 @@
 package org.aakashlabs.anautomatadroid;
 
-import com.example.anautomatadroid.R;
-
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;

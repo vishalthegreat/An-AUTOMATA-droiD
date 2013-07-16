@@ -5,34 +5,34 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 
-import com.example.anautomatadroid.R;
-
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.AlertDialog.Builder;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.TypedValue;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
+import android.webkit.WebSettings.TextSize;
 import android.widget.Button;
 import android.widget.TextView;
 
 public class HomeScreen extends Activity {
 
-	private Button b1,b2,b3,b4,b5;
+	private Button toa_button,basics_button,dfa_button,faq_button,about_us_button;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_home_screen);
-	b1=(Button)findViewById(R.id.toa_button);
-	b2=(Button)findViewById(R.id.basics_button);
-	b3=(Button)findViewById(R.id.dfa_button);
-	b4=(Button)findViewById(R.id.faq_button);
-	b5=(Button)findViewById(R.id.about_us_button);
-	b1.setOnClickListener(new OnClickListener() {
+		toa_button=(Button)findViewById(R.id.toa_button);
+	basics_button=(Button)findViewById(R.id.basics_button);
+	dfa_button=(Button)findViewById(R.id.dfa_button);
+	faq_button=(Button)findViewById(R.id.faq_button);
+	about_us_button=(Button)findViewById(R.id.about_us_button);
+	toa_button.setOnClickListener(new OnClickListener() {
 		
 		@Override
 		public void onClick(View v) {
@@ -42,7 +42,7 @@ public class HomeScreen extends Activity {
 			
 		}
 	});
-     b2.setOnClickListener(new OnClickListener() {
+     basics_button.setOnClickListener(new OnClickListener() {
 		
 		@Override
 		public void onClick(View v) {
@@ -52,7 +52,7 @@ public class HomeScreen extends Activity {
 			
 		}
 	});
-     b3.setOnClickListener(new OnClickListener() {
+     dfa_button.setOnClickListener(new OnClickListener() {
  		
  		@Override
  		public void onClick(View v) {
@@ -63,7 +63,7 @@ public class HomeScreen extends Activity {
  		}
  	});
 	
-     b4.setOnClickListener(new OnClickListener() {
+     faq_button.setOnClickListener(new OnClickListener() {
   		
   		@Override
   		public void onClick(View v) {
@@ -73,9 +73,8 @@ public class HomeScreen extends Activity {
   			
   		}
   	});
-     Button showDialog;
-     showDialog=(Button)findViewById(R.id.about_us_button);
-		showDialog.setOnClickListener(new OnClickListener() {
+     
+     about_us_button.setOnClickListener(new OnClickListener() {
 			
 			@Override
 			public void onClick(View v) {
@@ -85,6 +84,7 @@ public class HomeScreen extends Activity {
 				
 				TextView content=new TextView(HomeScreen.this);
 				content.setText(readContentFromAssests());
+				content.setTextSize(TypedValue.COMPLEX_UNIT_PX,20);
 				
 				alertBuilder.setView(content);
 			
